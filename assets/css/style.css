@@ -13,6 +13,9 @@ header {
 }
 table{
     border: 2px solid;
+    width: 140px;
+    height: 286px;
+    font-size: 16pt;
 }
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -24,13 +27,19 @@ body{
     position: relative;
     width: 930px;
     height: 550px;
-    left: 201px;
-    top: 0;
+    left: 250px;
+    top: 75px;
+    bottom: 75px;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 40px;
     padding-bottom: 40px;
 }
+#bio{
+    font-size: 16pt;
+    line-height: 1.5em
+}
 img{
+    margin-right: 1em;
    float: left; 
 }

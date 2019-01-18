@@ -1,0 +1,49 @@
+header {
+    position: absolute;
+    text-align: left;
+    color: rgb(246, 183, 184);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(198, 234, 221, 0.5);
+    width: 170px;
+    padding: 1%;
+    bottom: 0;
+    top: 0;
+    border-right: medium solid mediumseagreen;
+    float: left;
+}
+table{
+    border: 2px solid;
+    width: 140px;
+    height: 286px;
+    font-size: 16pt;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("pinkdust.png")
+}
+a{
+    color: rgb(246, 183, 184);
+}
+#contact{
+    color: gainsboro;
+    background-color: rgba(88, 88, 88, 0.5);
+    position: relative;
+    width: 930px;
+    height: 550px;
+    left: 250px;
+    top: 75px;
+    bottom: 75px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+input{
+    background-color: rgba(88, 88, 88, 1);
+    width: 915px;
+}
+.submit{
+    background-color: rgb(198, 234, 221);
+    width: 90px; 
+    height:30px;
+}
