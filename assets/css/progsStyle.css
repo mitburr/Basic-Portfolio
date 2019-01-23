@@ -21,7 +21,7 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-image: url("pinkdust.png");
 }
-div{
+#Portfolio{
     color: gainsboro;
     background-color: rgba(88, 88, 88, 0.5);
     position: relative;
@@ -37,4 +37,59 @@ div{
 }
 img{
     margin: 20px;
+    float: left;
 }
+.container{
+    text-align: center;
+    width: 180px;
+    height: 140px;
+    margin: 20px;
+    float: left;
+}
+.textbox{
+    background-color: black;
+    position: relative;
+    margin: 50px;
+    bottom: 100px;
+    width: 120px;
+}
+@media only screen and (max-width: 980px){
+    header{
+        width: 155px;
+    }
+    table{
+        width: 140px;
+    }
+    #Portfolio{
+        width: 790px;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    }
+    
+    @media only screen and (max-width: 768px){
+    header{
+        width: 110px;
+    }
+    table{
+        width: 100px;
+    }
+    #Portfolio{
+        width: 550px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }   
+    }
+    @media only screen and (max-width: 640px){
+    header{
+        width: 155px;
+    }
+    table{
+        width: 140px;
+    }
+    #Portfolio{
+        width: 550px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    }

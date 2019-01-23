@@ -43,3 +43,43 @@ img{
     margin-right: 1em;
    float: left; 
 }
+@media only screen and (max-width: 980px){
+    header{
+        width: 155px;
+    }
+    table{
+        width: 140px;
+    }
+    #about_me{
+        width: 790px;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    }
+    
+    @media only screen and (max-width: 768px){
+    header{
+        width: 110px;
+    }
+    table{
+        width: 100px;
+    }
+    #about_me{
+        width: 550px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }   
+    }
+    @media only screen and (max-width: 640px){
+    header{
+        width: 155px;
+    }
+    table{
+        width: 140px;
+    }
+    #about_me{
+        width: 550px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    }
