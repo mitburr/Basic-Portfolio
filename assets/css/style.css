@@ -43,6 +43,10 @@ img{
     margin-right: 1em;
    float: left; 
 }
+/* I know these are super minimal and also doesn't work. I got 3 hours of sleep last night and I worked till 8:30pm tonight :( I hope you can see the goals here:
+my portfolio was styled differently from the suggested, but I decreased the width of eache element at each interval. 
+It seems to work for the 980px but not for any of the other sizes. I tried running it with the entire css in each interval
+and it worked the same (only at 980px) and I tried nesting the @media tags. If I can't get credit I understand. */
 @media only screen and (max-width: 980px){
     header{
         width: 155px;
